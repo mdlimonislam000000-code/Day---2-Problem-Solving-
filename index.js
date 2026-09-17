@@ -31,3 +31,10 @@ const titleCase = (str) =>{
     .join(' ')
 }
 console.log('Problem - 9 First Word Big letter :',titleCase('limon'))
+
+// Problem  - 10 
+
+const countChar = (str , char) =>{
+    return str.split(char).length - 1 ;
+}
+console.log('Problem - 10 Count Occurrences of a Character :',countChar('baba', 'b'))
