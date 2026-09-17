@@ -11,4 +11,13 @@ const countVowels = (str)=>{
     const matches = str.match(/[aeiou]/gi)
     return matches ? matches.length : 0;
 }
-console.log('Problem - 6 Count Vowels:',countVowels('limon'))
+
+console.log('Problem - 7 Count Vowels:',countVowels('limon'))
+
+// Problem - 8 
+
+const isPalindrome = (str)=>{
+    const reverse = str.split('').reverse().join('')
+    return str === reverse
+}
+console.log('Problem - 8 Check Palindrome :',isPalindrome('limonnomil'))
