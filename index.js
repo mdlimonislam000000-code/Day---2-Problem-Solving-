@@ -21,3 +21,13 @@ const isPalindrome = (str)=>{
     return str === reverse
 }
 console.log('Problem - 8 Check Palindrome :',isPalindrome('limonnomil'))
+
+// Problem -9 
+
+const titleCase = (str) =>{
+    return str 
+    .split(' ')
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ')
+}
+console.log('Problem - 9 First Word Big letter :',titleCase('limon'))
